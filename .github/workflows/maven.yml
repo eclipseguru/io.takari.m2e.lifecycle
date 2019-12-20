@@ -29,5 +29,5 @@ jobs:
     - name: Upload repository
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: p2 Repository
+        name: p2-repository
         path: io.takari.m2e.lifecycle.repository/target/repository
