@@ -46,14 +46,17 @@
     <eclipserun-repo.url>https://download.eclipse.org/releases/2019-12/</eclipserun-repo.url>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
 
-    <incrementalbuild-workspace.version>0.20.5</incrementalbuild-workspace.version>
-    <takari-builder.version>0.20.5</takari-builder.version>
+    <incrementalbuild-workspace.version>0.20.10-SNAPSHOT</incrementalbuild-workspace.version>
+    <takari-builder.version>0.20.10-SNAPSHOT</takari-builder.version>
 
     <tycho.scmUrl>scm:git:https://github.com/eclipseguru/io.takari.m2e.lifecycle.git</tycho.scmUrl>
 
     <!-- allow to build with dirty working tree -->
     <jgit.dirtyWorkingTree>warning</jgit.dirtyWorkingTree>
+
   </properties>
 
   <modules>
