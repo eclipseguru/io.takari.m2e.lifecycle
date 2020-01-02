@@ -22,10 +22,6 @@
       %license
    </license>
 
-   <requires>
-      <import feature="org.eclipse.m2e.feature" version="1.6.0" match="greaterOrEqual"/>
-   </requires>
-
    <plugin
          id="io.takari.incrementalbuild.workspace"
          download-size="0"
